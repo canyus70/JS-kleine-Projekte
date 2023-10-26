@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Projekt Lvl 2.2</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section>
+        <h1>Trinktgeldrechner</h1>
+
+        <form>
+                <div>
+                    <label for="rechnungId">Wie hoch war die Rechnung?</label><br>
+                    <input type="number" name="" id="rechnungId">
+                </div>
+                <div>
+                    <label for="anzahlpersonId">Wie viele Menschen teilen sich die Rechnung?</label><br>
+                    <input type="number" name="anzahlperson" id="anzahlpersonId">
+                </div>
+                <div>
+                    <select name="" id="dropDownId">
+                    <option value="">Wie war der Service?</option>
+                    <option value="">Super Service</option>
+                    <option value="">Mittlerer Service</option>
+                    <option value="">Schlechter Service</option>
+                    </select>
+
+                </div>
+                <button type="button" onclick="trinkgeldrechner()">Berechne</button>
+        </form>
+
+        <div id="result"></div>
+
+
+    </section>
+    
+
+
+
+
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
